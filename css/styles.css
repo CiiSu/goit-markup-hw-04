@@ -271,6 +271,8 @@ a {
         border: 1px solid #EEEEEE;
 }
 
+
+
 .frame-team {
         width: 270px;
         height: 428px;
@@ -316,12 +318,6 @@ a {
         gap: 46px;
 }
 
-.navi-link { 
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        list-style-type: none;
-}
 
 .navi-link-portfolio {
         display: flex;
@@ -330,23 +326,32 @@ a {
         list-style-type: none;
 }
 
-.kontakt-nav {
-        list-style-type: none;
-        justify-content: flex-start;
-        align-items: center;
-        display: flex;
-        gap: 50px;
-        margin-left: 371px;
-        color: var(--main-grey);
-}
+
+
 
 .kontakt-nav-portfolio {
         justify-content: center;
         align-items: center;
         display: flex;
         gap: 50px;
-        margin-left: 250px;
+        margin-left: 200px;
         color: var(--main-grey);
+}
+.kontakt-nav {
+        list-style-type: none;
+        justify-content: flex-start;
+        align-items: center;
+        display: flex;
+        gap: 50px;
+        margin-left: 330px;
+        color: var(--main-grey);
+}
+        
+.navi-link {
+         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
 }
 
 
@@ -454,13 +459,32 @@ a {
         align-items: flex-start;
 }
 
-.footer-icon {
-        padding-top: 20px;
+
+
+.ul-footer {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
+.list-footer {
+        margin-right: 10px;
+        width: 44px;
+        height: 44px;
+}
 
+.icon-social-fotter:hover {
+        background: var(--main-blue);
+        border-radius: 50%;
+        cursor: pointer;
+}
 
+.kontakt-header {
+        margin-right: 30px;
+}
 
-
-
-
+.kontakt {
+        margin-right: 10px;
+        fill: currentColor;
+}
