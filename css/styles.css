@@ -11,6 +11,7 @@
 --main-white: #FFFFFF;
 --second-black: #000000;
 --border-color: #ECECEC;
+--background-color-icon: #F5F4FA;
 
 }
 
@@ -54,7 +55,7 @@ footer {
         height: 252px;
         left: 0px;
         top: 2097px;
-        background: #2F303A;
+        background: #2F303A;;
 
 }
 
@@ -100,6 +101,7 @@ footer {
         text-align: center;
         padding: 10px;
         width: 200px;
+        border: none;
 }
 
 .buttons-portfolio {
@@ -115,6 +117,7 @@ footer {
         border: #F5F4FA;
         text-align: center;
         padding: 6px 22px;
+        border: none;
 }
 
 
@@ -157,6 +160,11 @@ h4 {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--main-black);
+
+}
+
+.h4 {
+        padding-top: 30px;
 }
 
 .lorem {
@@ -166,6 +174,7 @@ h4 {
         letter-spacing: 0.03em;
         color: var(--main-grey);
         width: 270px;
+        padding-top: 10px;
 }
 
 h2 {
@@ -180,6 +189,17 @@ h2 {
 
 }
 
+.h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        color: var(--main-black);
+        display: flex;
+        justify-content: center;
+        padding-top: 94px; 
+}
+
 
 .name-team {
         font-weight: 500;
@@ -188,7 +208,7 @@ h2 {
         letter-spacing: 0.03em;
         color: var(--main-black);
         text-align: center;
-        padding-top: 30px;
+        padding-block: 30px 10px;
 }
 
 .jobs {
@@ -198,8 +218,10 @@ h2 {
         letter-spacing: 0.03em;
         color: var(--main-grey);
         text-align: center;
-        padding-top: 10px;
+        padding-block: 10px 30px;
 }
+
+
 
 .photo-portfolio {
         font-weight: 700;
@@ -208,6 +230,7 @@ h2 {
         letter-spacing: 0.06em;
         color: var(--main-black);
         margin-left: 24px;
+        padding-block: 20px 4px;
 }
 
 .under-photo-portfolio {
@@ -215,9 +238,9 @@ h2 {
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.03em;
-        line-height: 1px;
         color: var(--main-grey);
         margin-left: 24px;
+        padding-block: 4px 20px;
 
 }
 
@@ -250,7 +273,7 @@ a {
 
 .frame-team {
         width: 270px;
-        height: 368px;
+        height: 428px;
         left: 215px;
         top: 1635px;
         box-sizing: border-box;
@@ -329,16 +352,13 @@ a {
 
 .lorem-index {
         display: flex;
-        justify-content: space-between;
         list-style: none;
-        gap: 30px;
-        padding-top: 104px;
+        padding-left: 0;
+        margin: 0;
 }
 
 .h4-lorem {
-        width: 270px;
-        height: 104px;
-
+        margin-right: 30px;
 }
 
 
@@ -363,7 +383,9 @@ a {
 }
 
 .footer-logo {
-        padding-top: 60px;
+        display: inline-block;
+        margin-right: 70px;
+ 
 }
 
 .footer-adress {
@@ -381,7 +403,60 @@ a {
         padding-bottom: 94px;
 }
 
+.box-lorem {
+        width: 270px;
+        height: 120px;
+        background-color: var(--background-color-icon);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+}
 
+.section {
+        padding-top: 94px;
+}
+
+.box-client {
+        width: 170px;
+        height: 92px;
+        left: 215px;
+        top: 2493px;
+        box-sizing: border-box;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        margin-right: 30px;
+        margin-block: 50px 90px;
+}
+
+.list-client {
+        display: flex;
+        list-style: none;
+        padding-block: 50px 94px;
+        margin: 0;
+}
+
+.h4-footer {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+}
+
+.footer-wrap {
+        display: flex;
+        padding-top: 60px;
+        align-items: flex-start;
+}
+
+.footer-icon {
+        padding-top: 20px;
+}
 
 
 
