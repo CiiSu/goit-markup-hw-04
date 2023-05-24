@@ -111,3 +111,306 @@ ul {
     color: var(--main-blue);
     fill: var(--main-blue);
 }
+
+
+/* MainSection - Poster - Button */
+
+.poster-mid {
+    height: 600px;
+    margin: 0;
+    text-align: center;
+    padding: 200px 0;
+    background: #2F303A;
+    background-image: url(/goit-markup-hw-04/zdjęcia/Zajęcia/overlay.jpg)
+}
+
+.solutions-letter {
+    margin: 0 auto;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: var(--main-white);
+
+}
+
+.button-service {
+    background: #2196F3;
+    color: var(--main-white);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    margin-top: 30px;
+}
+
+/*.post-mid-photo {
+    background-image: url(/goit-markup-hw-04/zdjęcia/Zajęcia/overlay.jpg)
+}
+
+
+/* MainSection - LoremIpsum - Icons */
+
+.empty-slot {
+    padding-top: 94px;
+}
+
+.lorem-main {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.box-lorem {
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-color-icon);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.margin-lorem-index {
+    margin-right: 30px;
+}
+
+.h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-black);
+    padding-top: 30px;
+}
+
+.lorem-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--main-grey);
+    width: 270px;
+    padding-top: 10px;
+}
+
+/* MainSection - What We Do - Photo */ 
+
+.h2-what-we-do {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+}
+
+.photo-what-we-do-index {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+/* MainSection - Our Team - Photo - Description - Links */ 
+
+.our-team-background {
+    background: #F5F4FA;
+}
+
+.h2-our-team-index {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+}
+
+.our-team-photo-index {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
+.our-team-frame-index {
+    width: 270px;
+    height: 428px;
+    left: 215px;
+    top: 1635px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
+    text-align: center;
+    padding-block: 30px 10px;
+}
+
+.our-team-jobs-index {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--main-grey);
+    text-align: center;
+    padding-block: 10px 30px;
+}
+
+
+/* MainSection - Our Customers - Icon */
+
+
+.h2-our-customers {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--main-black);
+    display: flex;
+    justify-content: center;
+    padding-top: 94px;
+}
+
+.our-customers-list {
+    display: flex;
+    list-style: none;
+    padding-block: 50px 94px;
+    margin: 0;
+}
+
+.our-customers-frame {
+    width: 170px;
+    height: 92px;
+    left: 215px;
+    top: 2493px;
+    box-sizing: border-box;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-right: 30px;
+    margin-block: 50px 90px;
+}
+
+/* FooterSection - Logo - Adress - Icon */ 
+
+footer {
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
+
+.footer-wrap {
+    display: flex;
+    padding-top: 60px;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.web-logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--main-blue);
+}
+
+.web-logo-footer-2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--main-white);
+}
+
+.footer-adress {
+    padding-top: 20px;
+}
+
+.footer-link {
+    padding-block: 9px;
+}
+
+.link-footer {
+    color: #FFFFFF;
+}
+
+.link-footer:hover {
+    color: var(--main-blue);
+}
+
+.mail-tel-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.mail-tel-footer:hover {
+    color: var(--main-blue);
+}
+
+.h4-footer {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.ul-footer {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-footer {
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+}
+
+.icon-social-fotter:hover {
+    background: var(--main-blue);
+    border-radius: 50%;
+    cursor: pointer;
+}
