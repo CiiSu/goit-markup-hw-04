@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles_portfolio.css" />
   </head>
   <body>
     <header>
@@ -19,16 +25,16 @@
           <div class="navigation">
             <section>
               <h3>
-                <a class="logo" href="index.html">
-                  <span>Web</span><span class="logo1">Studio</span></a
+                <a class="web-logo" href="index.html">
+                  <span>Web</span><span class="web-logo1">Studio</span></a
                 >
               </h3>
             </section>
             <nav>
-              <ul class="navi-index">
-                <li><a class="link" href="./index.html">Agencja</a></li>
-                <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="link" href="#">Kontakty</a></li>
+              <ul class="menu-portfolio">
+                <li><a class="menu" href="./index.html">Agencja</a></li>
+                <li><a class="menu" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="menu" href="#">Kontakty</a></li>
               </ul>
             </nav>
             <section>
@@ -59,7 +65,7 @@
       <section>
         <div class="container">
           <!--Przyciski-->
-          <div class="portfolio-button-frame">
+          <div>
             <ul class="flex-button-portfolio">
               <li>
                 <button type="button" class="buttons-portfolio">
@@ -188,26 +194,27 @@
       <div class="container">
         <div class="footer-wrap">
           <div class="footer-logo">
-            <a href="index.html" class="logo"
-              ><span>Web</span><span class="logo2">Studio</span>
+            <a href="index.html" class="web-logo-footer"
+              ><span>Web</span><span class="web-logo-footer-2">Studio</span>
             </a>
-
             <ul>
               <li class="footer-adress">
                 <a
-                  class="link2"
+                  class="link-footer"
                   href="https://goo.gl/maps/wcyMzufaztNmCodf6"
                   target="_blank"
                   >m. Warszawa, Aleje Jerozolimskie 21</a
                 >
               </li>
               <li class="footer-link">
-                <a class="link" href="mailto:info@example.com"
+                <a class="mail-tel-footer" href="mailto:info@example.com"
                   >info@example.com</a
                 >
               </li>
               <li>
-                <a class="link" href="tel:+48111111111">+48 111 111 111</a>
+                <a class="mail-tel-footer" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
               </li>
             </ul>
           </div>
