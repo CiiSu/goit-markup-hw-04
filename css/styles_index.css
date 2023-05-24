@@ -324,8 +324,16 @@ ul {
     border-radius: 4px;
     margin-right: 30px;
     margin-block: 50px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.icon-customers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* FooterSection - Logo - Adress - Icon */ 
 
 footer {
