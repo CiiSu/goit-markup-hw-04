@@ -177,11 +177,12 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 30px;
 }
 
 .icon-group {
-    margin: 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .margin-lorem-index {
@@ -315,7 +316,7 @@ ul {
 
 .our-customers-frame {
     width: 170px;
-    height: 92px;ogo
+    height: 92px;
     left: 215px;
     top: 2493px;
     box-sizing: border-box;
