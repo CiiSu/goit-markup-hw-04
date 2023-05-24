@@ -120,8 +120,8 @@ ul {
     margin: 0;
     text-align: center;
     padding: 200px 0;
-    background: #2F303A;
-    background-image: url(/goit-markup-hw-04/zdjęcia/Zajęcia/overlay.jpg)
+    background-size: cover;
+    background-image: url(/goit-markup-hw-04/zdjęcia/Zajęcia/header.jpg)
 }
 
 .solutions-letter {
@@ -138,7 +138,7 @@ ul {
     line-height: 60px;
     text-transform: uppercase;
     color: var(--main-white);
-
+    
 }
 
 .button-service {
@@ -157,10 +157,6 @@ ul {
     margin-top: 30px;
 }
 
-/*.post-mid-photo {
-    background-image: url(/goit-markup-hw-04/zdjęcia/Zajęcia/overlay.jpg)
-}
-
 
 /* MainSection - LoremIpsum - Icons */
 
@@ -170,9 +166,7 @@ ul {
 
 .lorem-main {
     display: flex;
-    list-style: none;
-    padding-left: 0;
-    margin: 0;
+    margin: 0 30px 94px 0;
 }
 
 .box-lorem {
@@ -185,8 +179,17 @@ ul {
     justify-content: center;
     padding-top: 30px;
 }
+
+.icon-group {
+    margin: 100px 100px;
+}
+
 .margin-lorem-index {
     margin-right: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    margin-bottom: 30px;
 }
 
 .h4 {
