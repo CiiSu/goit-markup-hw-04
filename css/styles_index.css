@@ -308,6 +308,7 @@ ul {
     border-radius: 50%;
     cursor: pointer;
     background: var(--main-blue);
+    fill: var(--main-blue);
 }
 
 /* MainSection - Our Customers - Icon */
@@ -350,6 +351,11 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.our-customers-frame:hover {
+    background: var(--main-blue);
+    cursor: pointer;
 }
 /* FooterSection - Logo - Adress - Icon */ 
 
