@@ -111,6 +111,15 @@ ul {
     color: var(--main-blue);
 }
 
+.menu-kontakt-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-grey);
+    }
+
+
 .menu-kontakt-link:hover,
 .menu-kontakt-link:focus {
     color: var(--main-blue);
