@@ -12,6 +12,7 @@
     --second-black: #000000;
     --border-color: #ECECEC;
     --background-color-icon: #F5F4FA;
+    --icon-fill-color: #afb1b8;
 
 }
 
@@ -105,6 +106,16 @@ ul {
 
 .link:hover, .menu:hover, .menu-icon:hover {
     color: var(--main-blue);
+}
+
+.menu-kontakt-link:hover,
+.menu-kontakt-link:focus{
+    color: var(--main-blue);
+}
+
+.menu-icon {
+    fill: currentColor;
+    margin-right: 10px;
 }
 
 .menu-kontact-list:hover .highlight {
@@ -304,11 +315,12 @@ ul {
     height: 44px;
 }
 
+
+
 .icon-social-team:hover {
     border-radius: 50%;
     cursor: pointer;
     background: var(--main-blue);
-    fill: var(--main-blue);
 }
 
 /* MainSection - Our Customers - Icon */
@@ -335,28 +347,33 @@ ul {
 .our-customers-frame {
     width: 170px;
     height: 92px;
-    left: 215px;
-    top: 2493px;
-    box-sizing: border-box;
-    border: 1px solid #AFB1B8;
+    border: 1px solid currentColor;
+    color: #afb1b8;
+    fill: currentColor;
     border-radius: 4px;
     margin-right: 30px;
     margin-block: 50px 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.icon-customers{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .our-customers-frame:hover {
-    background: var(--main-blue);
-    cursor: pointer;
+    border-color: var(--main-blue);
+    fill: var(var(--main-blue));
 }
+
+.icon-customers {
+    fill:var(--icon-fill-color);
+}
+
+.icon-customers:hover {
+    fill: var(--main-blue);
+}
+
+
+
 /* FooterSection - Logo - Adress - Icon */ 
 
 footer {
