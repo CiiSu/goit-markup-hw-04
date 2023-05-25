@@ -135,7 +135,8 @@ ul {
     text-align: center;
     padding: 200px 0;
     background-size: cover;
-    background-image: url(/goit-markup-hw-04/zdjęcia/Zajęcia/header.jpg)
+    background-image: url(/goit-markup-hw-04/zdjęcia/Zajęcia/header.jpg);
+    box-shadow: 200px 200px 400px 200px rgba(47, 48, 58, 0.39) inset;
 }
 
 .solutions-letter {
