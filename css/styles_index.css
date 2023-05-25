@@ -321,7 +321,6 @@ ul {
     fill: var(--main-grey);
 }
 
-
 .icon-social-team:hover {
     border-radius: 50%;
     cursor: pointer;
@@ -375,6 +374,7 @@ ul {
 }
 
 .icon-customers:hover {
+    cursor: pointer;
     fill: var(--main-blue);
 }
 
