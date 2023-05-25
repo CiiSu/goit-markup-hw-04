@@ -77,12 +77,12 @@ ul {
     gap: 46px;
 }
 
-.link{
+.menu {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.15;
     letter-spacing: 0.02em;
-    color: var(--main-black);
+    color: var(--main-grey);
 }
 
 .kontakt-index {
@@ -92,36 +92,30 @@ ul {
 
 }
 
-.menu {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.15;
-    letter-spacing: 0.02em;
-    color: var(--main-grey);
-}
-
 .menu-icon {
+    fill: currentColor;
     margin-right: 10px;
 }
+
+.link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--main-black);
+}
+
+
 
 .link:hover, .menu:hover, .menu-icon:hover {
     color: var(--main-blue);
 }
 
 .menu-kontakt-link:hover,
-.menu-kontakt-link:focus{
+.menu-kontakt-link:focus {
     color: var(--main-blue);
 }
 
-.menu-icon {
-    fill: currentColor;
-    margin-right: 10px;
-}
-
-.menu-kontact-list:hover .highlight {
-    color: var(--main-blue);
-    fill: var(--main-blue);
-}
 
 
 /* MainSection - Poster - Button */
