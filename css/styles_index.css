@@ -349,8 +349,9 @@ ul {
 .our-customers-list {
     display: flex;
     list-style: none;
-    padding-block: 50px 94px;
-    margin: 0;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .our-customers-frame {
@@ -368,18 +369,23 @@ ul {
     text-align: center;
 }
 
+
 .our-customers-frame:hover {
     border-color: var(--main-blue);
-    fill: var(var(--main-blue));
+    fill: var(--main-blue);
+    border: 1px #2196F3 solid;
 }
 
-.icon-customers {
-    fill:var(--icon-fill-color);
-}
 
 .icon-customers:hover {
     cursor: pointer;
     fill: var(--main-blue);
+}
+
+
+.social-icons-likns:hover,
+.social-icons-likns:focus {
+    background-color: #2196f3;
 }
 
 
