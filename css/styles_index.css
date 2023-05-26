@@ -373,7 +373,6 @@ ul {
 .our-customers-frame:hover {
     border-color: var(--main-blue);
     fill: var(--main-blue);
-    border: 1px #2196F3 solid;
 }
 
 
@@ -383,10 +382,7 @@ ul {
 }
 
 
-.social-icons-likns:hover,
-.social-icons-likns:focus {
-    background-color: #2196f3;
-}
+
 
 
 
